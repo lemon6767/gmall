@@ -1,7 +1,6 @@
-package com.atguigu.gmall.user.service;
+package com.atguigu.gmall.service;
 
-import com.atguigu.gmall.user.bean.ReceiveAddress;
-import com.atguigu.gmall.user.bean.User;
+import com.atguigu.gmall.bean.ReceiveAddress;
 
 import java.util.List;
 

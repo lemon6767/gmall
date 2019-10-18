@@ -1,10 +1,10 @@
-package com.atguigu.gmall.user.service.impl;
+package com.atguigu.gmall.user.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.atguigu.gmall.bean.User;
-import com.atguigu.gmall.user.mapper.UserMapper;
 import com.atguigu.gmall.service.UserService;
+import com.atguigu.gmall.user.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

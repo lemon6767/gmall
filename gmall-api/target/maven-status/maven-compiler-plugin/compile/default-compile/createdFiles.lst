@@ -1,0 +1,4 @@
+com\atguigu\gmall\bean\ReceiveAddress.class
+com\atguigu\gmall\service\UserService.class
+com\atguigu\gmall\bean\User.class
+com\atguigu\gmall\service\ReceiveAddressService.class

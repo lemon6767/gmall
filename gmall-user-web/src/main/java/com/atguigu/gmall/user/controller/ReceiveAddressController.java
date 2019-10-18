@@ -1,15 +1,15 @@
 package com.atguigu.gmall.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.ReceiveAddress;
 import com.atguigu.gmall.service.ReceiveAddressService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/addr")
 public class ReceiveAddressController {
-    @Autowired
+    @Reference
     ReceiveAddressService receiveAddressService;
 
     @RequestMapping("/list")
